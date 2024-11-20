@@ -1,0 +1,201 @@
+#welcome {
+    font-family: Tamaho bold;
+    text-align: center;
+    color: yellow;
+}
+
+#view {
+    background-color: #e0f7fa; /* Màu xanh lá cây nhạt */
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    padding: 50px;
+    height: 100%;
+}
+
+#table-view {
+    font-family: Helvetica;
+    background-color: #ffffff;
+    padding: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100vh;
+    width: auto;
+    overflow-y:scroll;
+}
+
+#input {
+    outline: none;
+    border: none;
+    padding: 5px 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#button {
+    width: 50px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border: thin #99ff99;
+    border-radius: 0px;
+    background: rgba(255,255,255,.75);
+}
+
+.productManagement table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.productManagement table, .productManagement th, .productManagement td {
+    border: none;
+}
+
+.productManagement tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.productManagement tr:nth-child(odd) {
+    background-color: rgb(204, 204, 204);
+}
+
+.productManagement th {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.productManagement td {
+    padding: 5px;
+    text-align: center;
+}
+
+.productManagement form {
+    display: contents;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.avatar-placeholder {
+    font-size: 24px;
+    color: #6c757d;
+    background-color: #ffffff;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin: 2px 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.75);
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #dddddd;
+}
+
+.navbar {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+}
+
+.new-product-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.show-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.show-button button {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.show-button button i {
+    margin-right: 10px;
+}
+
+.pagination .page-link {
+    color: #007bff; /* Màu xanh dương cho nút phân trang */
+    border: 1px solid #007bff;
+    transition: all 0.3s;
+}
+
+.pagination .page-link {
+    color: #007bff; /* Màu xanh dương cho nút phân trang */
+    border: 1px solid #007bff;
+    transition: all 0.3s;
+    border-radius: 25px; /* Bo tròn nút */
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+}
+
+.pagination .page-link:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.pagination .page-link {
+    border-radius: 25px; /* Làm cho các nút có hình tròn */
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+}
